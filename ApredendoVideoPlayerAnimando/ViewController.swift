@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     private func configScreen() {
         self.configTableView()
         
-        self.maxY = self.view.bounds.height - 50
+        self.maxY = self.view.bounds.height - (self.view.bounds.height / 3 + 40)
     }
     
     private func configTableView() {
