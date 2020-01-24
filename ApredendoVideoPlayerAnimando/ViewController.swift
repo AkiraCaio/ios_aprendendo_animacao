@@ -9,9 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    
+        
     var positionYVideoPlayer: CGFloat = 0
+    
     var maxY: CGFloat = 0
     
     let tableView: UITableView = {
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     private func configScreen() {
         self.configTableView()
         
-        self.maxY = self.view.bounds.height - (self.view.bounds.height / 3 + 40)
+        self.maxY = self.view.bounds.height - (self.view.bounds.height / 5 + 40)
     }
     
     private func configTableView() {
